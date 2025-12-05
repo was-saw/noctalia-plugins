@@ -14,7 +14,7 @@
     {
       "id": "launcher-button",
       "name": "Launcher Button",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": "Noctalia Team",
       "description": "A simple button that opens the app launcher.",
       "repository": "https://github.com/noctalia-dev/noctalia-plugins",
