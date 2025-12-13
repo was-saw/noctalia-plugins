@@ -1,28 +1,28 @@
 {
+  "intervals": {
+    "10_seconds": "10秒",
+    "1_second": "1秒",
+    "30_seconds": "30秒",
+    "5_seconds": "5秒"
+  },
+  "settings": {
+    "current_value": "選択済み: {value} ms",
+    "general": "一般",
+    "refresh_interval_description": "プラグインがコンテナの状態をチェックする頻度",
+    "refresh_interval_label": "更新間隔",
+    "title": "コンテナマネージャー設定"
+  },
   "tooltip": {
-    "running_containers": "実行中のコンテナ: %1",
-    "docker_not_available": "Dockerが利用できません"
+    "docker_not_available": "Dockerが利用できません",
+    "running_containers": "実行中のコンテナ: %1"
   },
   "ui": {
     "containers": "コンテナ",
-    "volumes": "ボリューム",
-    "refresh": "更新",
     "prune": "整理",
-    "stop": "停止",
+    "refresh": "更新",
+    "remove": "削除",
     "start": "開始",
-    "remove": "削除"
-  },
-  "settings": {
-    "title": "コンテナマネージャー設定",
-    "general": "一般",
-    "refresh_interval_label": "更新間隔",
-    "refresh_interval_description": "プラグインがコンテナの状態をチェックする頻度",
-    "current_value": "選択済み: {value} ms"
-  },
-  "intervals": {
-    "1_second": "1秒",
-    "5_seconds": "5秒",
-    "10_seconds": "10秒",
-    "30_seconds": "30秒"
+    "stop": "停止",
+    "volumes": "ボリューム"
   }
 }

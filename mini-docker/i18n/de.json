@@ -1,28 +1,28 @@
 {
+  "intervals": {
+    "10_seconds": "10 Sekunden",
+    "1_second": "1 Sekunde",
+    "30_seconds": "30 Sekunden",
+    "5_seconds": "5 Sekunden"
+  },
+  "settings": {
+    "current_value": "Ausgewählt: {value} ms",
+    "general": "Allgemein",
+    "refresh_interval_description": "Wie oft das Plugin den Containerstatus überprüft",
+    "refresh_interval_label": "Aktualisierungsintervall",
+    "title": "Container Manager Einstellungen"
+  },
   "tooltip": {
-    "running_containers": "Laufende Container: %1",
-    "docker_not_available": "Docker nicht verfügbar"
+    "docker_not_available": "Docker nicht verfügbar",
+    "running_containers": "Laufende Container: %1"
   },
   "ui": {
     "containers": "Container",
-    "volumes": "Volumes",
-    "refresh": "Aktualisieren",
     "prune": "Bereinigen",
-    "stop": "Stoppen",
+    "refresh": "Aktualisieren",
+    "remove": "Entfernen",
     "start": "Starten",
-    "remove": "Entfernen"
-  },
-  "settings": {
-    "title": "Container Manager Einstellungen",
-    "general": "Allgemein",
-    "refresh_interval_label": "Aktualisierungsintervall",
-    "refresh_interval_description": "Wie oft das Plugin den Containerstatus überprüft",
-    "current_value": "Ausgewählt: {value} ms"
-  },
-  "intervals": {
-    "1_second": "1 Sekunde",
-    "5_seconds": "5 Sekunden",
-    "10_seconds": "10 Sekunden",
-    "30_seconds": "30 Sekunden"
+    "stop": "Stoppen",
+    "volumes": "Volumes"
   }
 }

@@ -1,28 +1,28 @@
 {
+  "intervals": {
+    "10_seconds": "10 секунд",
+    "1_second": "1 секунда",
+    "30_seconds": "30 секунд",
+    "5_seconds": "5 секунд"
+  },
+  "settings": {
+    "current_value": "Выбрано: {value} мс",
+    "general": "Общие",
+    "refresh_interval_description": "Как часто плагин проверяет статус контейнеров",
+    "refresh_interval_label": "Интервал обновления",
+    "title": "Настройки Менеджера Контейнеров"
+  },
   "tooltip": {
-    "running_containers": "Запущенные контейнеры: %1",
-    "docker_not_available": "Docker недоступен"
+    "docker_not_available": "Docker недоступен",
+    "running_containers": "Запущенные контейнеры: %1"
   },
   "ui": {
     "containers": "Контейнеры",
-    "volumes": "Тома",
-    "refresh": "Обновить",
     "prune": "Очистить",
-    "stop": "Остановить",
+    "refresh": "Обновить",
+    "remove": "Удалить",
     "start": "Запустить",
-    "remove": "Удалить"
-  },
-  "settings": {
-    "title": "Настройки Менеджера Контейнеров",
-    "general": "Общие",
-    "refresh_interval_label": "Интервал обновления",
-    "refresh_interval_description": "Как часто плагин проверяет статус контейнеров",
-    "current_value": "Выбрано: {value} мс"
-  },
-  "intervals": {
-    "1_second": "1 секунда",
-    "5_seconds": "5 секунд",
-    "10_seconds": "10 секунд",
-    "30_seconds": "30 секунд"
+    "stop": "Остановить",
+    "volumes": "Тома"
   }
 }

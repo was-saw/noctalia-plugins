@@ -1,28 +1,28 @@
 {
+  "intervals": {
+    "10_seconds": "10 secondes",
+    "1_second": "1 seconde",
+    "30_seconds": "30 secondes",
+    "5_seconds": "5 secondes"
+  },
+  "settings": {
+    "current_value": "Sélectionné: {value} ms",
+    "general": "Général",
+    "refresh_interval_description": "À quelle fréquence le plugin vérifie l'état des conteneurs",
+    "refresh_interval_label": "Intervalle de rafraîchissement",
+    "title": "Paramètres du Gestionnaire de Conteneurs"
+  },
   "tooltip": {
-    "running_containers": "Conteneurs en cours d'exécution: %1",
-    "docker_not_available": "Docker non disponible"
+    "docker_not_available": "Docker non disponible",
+    "running_containers": "Conteneurs en cours d'exécution: %1"
   },
   "ui": {
     "containers": "Conteneurs",
-    "volumes": "Volumes",
-    "refresh": "Actualiser",
     "prune": "Nettoyer",
-    "stop": "Arrêter",
+    "refresh": "Actualiser",
+    "remove": "Supprimer",
     "start": "Démarrer",
-    "remove": "Supprimer"
-  },
-  "settings": {
-    "title": "Paramètres du Gestionnaire de Conteneurs",
-    "general": "Général",
-    "refresh_interval_label": "Intervalle de rafraîchissement",
-    "refresh_interval_description": "À quelle fréquence le plugin vérifie l'état des conteneurs",
-    "current_value": "Sélectionné: {value} ms"
-  },
-  "intervals": {
-    "1_second": "1 seconde",
-    "5_seconds": "5 secondes",
-    "10_seconds": "10 secondes",
-    "30_seconds": "30 secondes"
+    "stop": "Arrêter",
+    "volumes": "Volumes"
   }
 }

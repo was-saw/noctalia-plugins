@@ -1,28 +1,28 @@
 {
+  "intervals": {
+    "10_seconds": "10 秒",
+    "1_second": "1 秒",
+    "30_seconds": "30 秒",
+    "5_seconds": "5 秒"
+  },
+  "settings": {
+    "current_value": "已选择: {value} 毫秒",
+    "general": "通用",
+    "refresh_interval_description": "插件检查容器状态的频率",
+    "refresh_interval_label": "刷新间隔",
+    "title": "容器管理器设置"
+  },
   "tooltip": {
-    "running_containers": "运行中的容器: %1",
-    "docker_not_available": "Docker 不可用"
+    "docker_not_available": "Docker 不可用",
+    "running_containers": "运行中的容器: %1"
   },
   "ui": {
     "containers": "容器",
-    "volumes": "卷",
-    "refresh": "刷新",
     "prune": "清理",
-    "stop": "停止",
+    "refresh": "刷新",
+    "remove": "删除",
     "start": "启动",
-    "remove": "删除"
-  },
-  "settings": {
-    "title": "容器管理器设置",
-    "general": "通用",
-    "refresh_interval_label": "刷新间隔",
-    "refresh_interval_description": "插件检查容器状态的频率",
-    "current_value": "已选择: {value} 毫秒"
-  },
-  "intervals": {
-    "1_second": "1 秒",
-    "5_seconds": "5 秒",
-    "10_seconds": "10 秒",
-    "30_seconds": "30 秒"
+    "stop": "停止",
+    "volumes": "卷"
   }
 }

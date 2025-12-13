@@ -1,28 +1,28 @@
 {
+  "intervals": {
+    "10_seconds": "10 seconden",
+    "1_second": "1 seconde",
+    "30_seconds": "30 seconden",
+    "5_seconds": "5 seconden"
+  },
+  "settings": {
+    "current_value": "Geselecteerd: {value} ms",
+    "general": "Algemeen",
+    "refresh_interval_description": "Hoe vaak de plugin de containerstatus controleert",
+    "refresh_interval_label": "Vernieuwingsinterval",
+    "title": "Container Manager Instellingen"
+  },
   "tooltip": {
-    "running_containers": "Lopende containers: %1",
-    "docker_not_available": "Docker niet beschikbaar"
+    "docker_not_available": "Docker niet beschikbaar",
+    "running_containers": "Lopende containers: %1"
   },
   "ui": {
     "containers": "Containers",
-    "volumes": "Volumes",
-    "refresh": "Vernieuwen",
     "prune": "Opschonen",
-    "stop": "Stoppen",
+    "refresh": "Vernieuwen",
+    "remove": "Verwijderen",
     "start": "Starten",
-    "remove": "Verwijderen"
-  },
-  "settings": {
-    "title": "Container Manager Instellingen",
-    "general": "Algemeen",
-    "refresh_interval_label": "Vernieuwingsinterval",
-    "refresh_interval_description": "Hoe vaak de plugin de containerstatus controleert",
-    "current_value": "Geselecteerd: {value} ms"
-  },
-  "intervals": {
-    "1_second": "1 seconde",
-    "5_seconds": "5 seconden",
-    "10_seconds": "10 seconden",
-    "30_seconds": "30 seconden"
+    "stop": "Stoppen",
+    "volumes": "Volumes"
   }
 }
