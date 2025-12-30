@@ -1,0 +1,34 @@
+{
+  "id": "lyrics-sync",
+  "name": "Lyrics Sync",
+  "version": "0.1.1",
+  "minNoctaliaVersion": "3.7.0",
+  "author": "Noctalia Community",
+  "license": "MIT",
+  "repository": "https://github.com/noctalia-dev/noctalia-plugins",
+  "description": "Display synchronized lyrics for currently playing music via MPRIS.",
+  "entryPoints": {
+    "main": "Main.qml",
+    "barWidget": "BarWidget.qml",
+    "desktopWidget": "DesktopWidget.qml",
+    "panel": "Panel.qml",
+    "settings": "Settings.qml"
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {
+      "fontSize": 14,
+      "showTranslation": true,
+      "autoScroll": true,
+      "lyricsSource": "lxmusic",
+      "lyricsDirectory": "",
+      "highlightColor": "#FF6B9D",
+      "scrollAnimation": true,
+      "barWidgetScrollSpeed": 50,
+      "lxMusicHost": "127.0.0.1",
+      "lxMusicPort": 23330
+    }
+  }
+}
